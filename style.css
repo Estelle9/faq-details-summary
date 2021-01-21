@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../images/bg-pattern-mobile.svg");
+    background-image: url("./images/bg-pattern-mobile.svg");
     background-repeat: no-repeat;
     background-position: 50% 1%;
     background-color: white;
@@ -102,7 +102,7 @@ span {
 }
 
 span:after {
-    content: url(../images/icon-arrow-down.svg);
+    content: url("./images/icon-arrow-down.svg");
     position: absolute;
 }
 
@@ -204,7 +204,7 @@ span:after {
         justify-content: space-between;
         width: 85em;
         height: 500px;
-        background-image: url("../images/bg-pattern-desktop.svg");
+        background-image: url("./images/bg-pattern-desktop.svg");
         background-position: -48em 69%;
         background-repeat: no-repeat;
         background-size: 80em;
