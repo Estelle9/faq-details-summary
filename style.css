@@ -87,6 +87,7 @@ body {
     color: hsl(237, 12%, 33%);
     font-weight: 400;
     transition: all 0.3s ease-in-out;
+    list-style: none;
 }
 
 .question-btn:hover,
