@@ -73,11 +73,18 @@ body {
     width: 100%;
 }
 
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 .faq-section {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid hsl(240, 5%, 91%);
-    list-style: none;
 }
 
 .question-btn {
